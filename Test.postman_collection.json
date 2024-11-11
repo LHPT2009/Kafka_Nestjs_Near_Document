@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "cef8ee21-31e7-485a-9a34-c3e666c9204f",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21982246",
+		"_collection_link": "https://s-routing.postman.co/workspace/S-Routing-Workspace~fd4ad12b-9066-4515-8774-dd747041200e/collection/21982246-cef8ee21-31e7-485a-9a34-c3e666c9204f?action=share&source=collection_link&creator=21982246"
+	},
+	"item": [
+		{
+			"name": "Test-Kafka",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"123\",\r\n    \"price\": 123\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	]
+}
